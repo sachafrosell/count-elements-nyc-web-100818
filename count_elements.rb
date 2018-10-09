@@ -1,7 +1,7 @@
 def count_elements(array)
   counts = Hash.new 
   array.each do |species|
-    counts
+    counts[species] += 1 
 end
 
 count_elements(animals)
