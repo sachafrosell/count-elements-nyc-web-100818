@@ -1,10 +1,7 @@
 def count_elements(array)
-  counts = Hash.new 
+  counts = Hash.new 0
   array.each do |species|
     counts[species] += 1 
   end 
+  counts
 end
-
-count_elements(animals)
- 
-animals = ['tortoise', 'aye-aye', 'honey badger', 'aye-aye', 'tortoise', 'tortoise']
