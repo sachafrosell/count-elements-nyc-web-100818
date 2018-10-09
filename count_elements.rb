@@ -1,4 +1,9 @@
 def count_elements(array)
-  # code goes here
+  array.each do |species|
+    spec
+  end 
 end
+
+count_elements(animals)
  
+animals = ['tortoise', 'aye-aye', 'honey badger', 'aye-aye', 'tortoise', 'tortoise']
