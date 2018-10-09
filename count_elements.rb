@@ -1,7 +1,6 @@
 def count_elements(array)
-  array.each do |species|
-    spec
-  end 
+  counts = Hash.new 
+  array.each do ||
 end
 
 count_elements(animals)
